@@ -1,17 +1,38 @@
 # JIRA API Field Highlighter
 
-This repository organizes the versions of the Chrome extension.
+![Build Status](https://img.shields.io/github/workflow/status/melrojohnn/jira_api_field_highlighter/CI)
+![Stars](https://img.shields.io/github/stars/melrojohnn/jira_api_field_highlighter)
+![License](https://img.shields.io/github/license/melrojohnn/jira_api_field_highlighter)
 
-- v1.1: first release (tag `v1.1`)
-- v1.3: current stable release (branch `main`, tag `v1.3`)
-- v1.4: in development (branch `develop`, tag `v1.4`)
+A Chrome extension that highlights JIRA API fields directly in your browser, making it easier to visualize and interact with JIRA API data.
 
-How to load in Chrome (developer mode):
-1. Open Chrome → Extensions → Manage extensions.
-2. Enable Developer mode.
-3. Click "Load unpacked" and select the project folder.
+## Features
 
-Git strategy:
-- `main` = latest stable release (v1.3)
-- `develop` = next version under development (v1.4)
-- Tags are created for each release
+- Highlights JIRA API fields with different colors.
+- Allows filtering and viewing specific data.
+- Intuitive and easy-to-use interface.
+
+## Installation
+
+1. Clone this repository.
+2. Open Chrome and go to `chrome://extensions/`.
+3. Enable Developer Mode.
+4. Click "Load unpacked" and select the project folder.
+
+## Usage
+
+After installation, click the extension icon in the Chrome toolbar to activate it. The extension will start highlighting JIRA API fields on compatible pages.
+
+## Contributing
+
+Contributions are welcome! To contribute:
+
+1. Fork this repository.
+2. Create a branch for your feature (`git checkout -b feature/your-feature-name`).
+3. Commit your changes (`git commit -am 'Add new feature'`).
+4. Push to the branch (`git push origin feature/your-feature-name`).
+5. Open a pull request.
+
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
