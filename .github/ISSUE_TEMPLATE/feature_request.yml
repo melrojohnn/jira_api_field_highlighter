@@ -1,0 +1,8 @@
+name: Feature Request
+description: Solicite uma melhoria
+labels: enhancement
+body:
+  - type: textarea
+    id: proposta
+    attributes:
+      label: Proposta
