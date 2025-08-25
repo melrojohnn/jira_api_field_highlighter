@@ -1,5 +1,5 @@
-# Contribuindo
+# Contributing
 
-1. Crie branch a partir de develop.
-2. Abra PR para develop.
-3. Releases são tagueadas e mescladas em main.
+1. Create a feature branch from `develop`.
+2. Open a Pull Request targeting `develop`.
+3. Releases are tagged and merged into `main`.

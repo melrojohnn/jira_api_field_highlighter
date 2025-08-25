@@ -1,8 +1,12 @@
 name: Feature Request
-description: Solicite uma melhoria
+description: Suggest an idea for this project
 labels: enhancement
 body:
   - type: textarea
-    id: proposta
+    id: proposal
     attributes:
-      label: Proposta
+      label: Proposal
+  - type: textarea
+    id: rationale
+    attributes:
+      label: Rationale / Use Case

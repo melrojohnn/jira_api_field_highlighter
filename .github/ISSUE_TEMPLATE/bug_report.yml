@@ -1,12 +1,20 @@
 name: Bug Report
-description: Reporte um bug
+description: Report a bug
 labels: bug
 body:
   - type: textarea
-    id: descricao
+    id: description
     attributes:
-      label: Descrição
+      label: Description
   - type: textarea
-    id: passos
+    id: steps
     attributes:
-      label: Passos para reproduzir
+      label: Steps to Reproduce
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behavior
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment (browser, OS)

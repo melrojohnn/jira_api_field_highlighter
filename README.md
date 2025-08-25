@@ -1,17 +1,17 @@
 # JIRA API Field Highlighter
 
-Este repositório organiza as versões do plugin.
+This repository organizes the versions of the Chrome extension.
 
-- v1.1: primeira versão (tag v1.1)
-- v1.3: versão lançada (main, tag v1.3)
-- v1.4: versão em desenvolvimento (branch develop, tag v1.4)
+- v1.1: first release (tag `v1.1`)
+- v1.3: current stable release (branch `main`, tag `v1.3`)
+- v1.4: in development (branch `develop`, tag `v1.4`)
 
-Como carregar no Chrome (modo dev):
-1. Chrome → Extensões → Gerenciar extensões.
-2. Ative o Modo do desenvolvedor.
-3. Carregar sem compactação e selecione a pasta do projeto.
+How to load in Chrome (developer mode):
+1. Open Chrome → Extensions → Manage extensions.
+2. Enable Developer mode.
+3. Click "Load unpacked" and select the project folder.
 
-Estratégia Git:
-- main = última versão estável (v1.3).
-- develop = próxima versão (v1.4).
-- tags para releases.
+Git strategy:
+- `main` = latest stable release (v1.3)
+- `develop` = next version under development (v1.4)
+- Tags are created for each release
