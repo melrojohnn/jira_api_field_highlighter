@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 10px;
+      width: 220px;
+    }
+    label {
+      display: block;
+      margin-bottom: 8px;
+    }
+    button {
+      margin-top: 10px;
+      width: 100%;
+      padding: 5px;
+    }
+  </style>
+</head>
+<body>
+  <label>
+    <input type="checkbox" id="enablePlugin" />
+    Ativar plugin
+  </label>
+  <label>
+    <input type="checkbox" id="showNullFields" />
+    Mostrar campos nulos
+  </label>
+  <hr />
+  <button id="viewApiBtn">Ver na REST API</button>
+  <script src="popup.js"></script>
+</body>
+</html>

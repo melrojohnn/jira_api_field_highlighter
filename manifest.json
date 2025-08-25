@@ -1,0 +1,19 @@
+
+{
+  "manifest_version": 3,
+  "name": "JIRA API Field Highlighter",
+  "version": "1.4",
+  "description": "Destaca campos preenchidos na API do JIRA. Ids em amarelo, dados úteis em verde, customfields em azul. Possui opções para ativar/desativar, mostrar campos nulos e abrir issue na REST API.",
+  "permissions": ["activeTab", "storage"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "css": ["styles.css"],
+      "run_at": "document_idle"
+    }
+  ]
+}

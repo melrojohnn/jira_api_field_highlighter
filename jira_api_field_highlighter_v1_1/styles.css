@@ -1,0 +1,34 @@
+
+pre {
+  outline: 1px solid #ccc;
+  padding: 5px;
+  margin: 5px;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+}
+
+.json-key-highlight {
+  color: #a084ca;
+}
+
+.json-value-highlight {
+  color: #5ba8f5;
+  font-weight: bold;
+}
+
+.json-string-highlight {
+  color: #5ba8f5;
+}
+
+.json-boolean {
+  color: #0080ff;
+}
+
+.json-null {
+  color: grey;
+}
+
+.json-id {
+  color: #e0c000;
+  font-weight: bold;
+}

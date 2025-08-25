@@ -1,0 +1,19 @@
+
+{
+  "manifest_version": 3,
+  "name": "JIRA API Field Highlighter",
+  "version": "1.1",
+  "description": "Destaca campos preenchidos em respostas JSON de APIs, especialmente do JIRA.",
+  "permissions": ["activeTab", "storage"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "css": ["styles.css"],
+      "run_at": "document_idle"
+    }
+  ]
+}
