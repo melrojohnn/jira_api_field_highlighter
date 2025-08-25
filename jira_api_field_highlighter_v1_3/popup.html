@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 10px;
+      width: 220px;
+    }
+    label {
+      display: block;
+      margin-bottom: 8px;
+    }
+    button {
+      margin-top: 10px;
+      width: 100%;
+      padding: 5px;
+    }
+  </style>
+</head>
+<body>
+  <label>
+    <input type="checkbox" id="enablePlugin" />
+    Enable plugin
+  </label>
+  <label>
+    <input type="checkbox" id="showNullFields" />
+    Show null fields
+  </label>
+  <label>
+    <input type="checkbox" id="showOnlyComments" />
+    Show only comments
+  </label>
+  <label>
+    <input type="checkbox" id="showMainFields" />
+    Show main issue fields
+  </label>
+  <hr />
+  <button id="viewApiBtn">View in REST API</button>
+  <script src="popup.js"></script>
+</body>
+</html>
